@@ -1,0 +1,17 @@
+body {
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.vlakje {
+  width: 9em;
+  height: 5em;
+  -webkit-transition: transform .6s cubic-bezier(.17, .67, .71, 1.29);
+  -moz-transition: transform .6s cubic-bezier(.17, .67, .71, 1.29);
+  transition: transform .6s cubic-bezier(.17, .67, .71, 1.29);
+  border: 2px solid black;
+}
+
+.vlakje--schuif-uit {
+  transform: translateX(-10vw);
+}
